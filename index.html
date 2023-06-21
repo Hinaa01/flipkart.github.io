@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Flipkart logo</title>
+
+<style>
+
+    #backbag {
+               background-image: linear-gradient(to bottom, #ffd000 1%, #ffd000 1%, #ff9f00 98%);
+               width: 250px;
+               height:300px;
+               margin:auto;
+               position:relative;
+               top:100px;
+               border-radius: 3px;
+             }
+        
+    #backbag::before {
+                       content:"";
+                       position:absolute;
+                       border-top: 20px solid transparent;
+                       border-left:20px solid #ffd000;
+                       border-radius:5px;
+                       top:1.9px;
+                       left:-8px;
+                       rotate:50deg;
+               
+             }
+        
+    #backbag::after {
+                       content:"";
+                       position:absolute;
+                       border-top: 20px solid transparent;
+                       border-right:20px solid #ffd000;
+                       border-radius:5px;
+                       top:2.3px;
+                       left:239px;
+                       rotate:-47deg;
+             }
+
+#sidecorner1::before {
+                       content:"";
+                       position:absolute;
+                       border-top: 20px solid transparent;
+                       border-right:20px solid #ffb700;
+                       border-radius:5px;
+                       top:15px;
+                       left:251px;
+                       rotate:135deg;
+                       z-index:1;
+
+                     }
+
+
+#sidecorner1::after {
+                       content:"";
+                       position:absolute;
+                       border-top: 20px solid transparent;
+                       border-right:20px solid #ffb700;
+                       border-radius:5px;
+                       top:15px;
+                       left:-20px;
+                       rotate:-45deg;
+
+                     }
+
+
+#secondcorner1::before {
+                       content:"";
+                       position:absolute;
+                       border-top: 30px solid transparent;
+                       border-right:30px solid #ffe800;
+                       border-radius:5px;
+                       top:20px;
+                       left:-27px;
+
+                     }
+
+
+#secondcorner1::after {
+                       content:"";
+                       position:absolute;
+                       border-top: 30px solid transparent;
+                       border-left:30px solid #ffe800;
+                       border-radius:5px;
+                       top:20px;
+                       left:249px;
+                       z-index:2;
+
+                     }
+
+
+
+
+#frontbag {
+               background-image: linear-gradient(to bottom, #ffd000 1%, #ffd000 1%, #ff9f00 98%);
+               width: 306px;
+               height:300px;
+               margin:auto;
+               position:relative;
+               top:48px;
+               left:-27px;
+               border-radius:5px 5px 5px 5px;
+               z-index:3;
+               border-top:5px solid #ffe570;
+             }
+
+
+#fspan {
+          text-align: center;
+          font-family: "Carter One";
+          font-size:250px;
+          color:#006ab0;
+}
+
+#holes::before {
+                content:"";
+                position:absolute;
+                background-color: #d2ad01;
+                width:10px;
+                height:10px;
+                border-radius: 50%;
+                z-index:5;
+                top:20px;
+                left:70px;
+
+              }
+
+#holes::after {
+                content:"";
+                position:absolute;
+                background-color: #d2ad01;
+                width:10px;
+                height:10px;
+                border-radius: 50%;
+                z-index:5;
+                top:20px;
+                left:170px;
+
+              }
+#ring  {
+         position:relative;
+         z-index:10;
+         border-top:5px solid rgb(188, 136, 72,0);
+         border-right: 5px solid rgb(188, 136, 72,0);
+         border-left: 5px solid white;
+         border-bottom: 5px solid white;
+         width:100px;
+         height:100px;
+         border-radius: 50%;
+         top:-283px;
+         left:70px;
+         background-color:transparent; 
+         rotate:-45deg;
+
+       }
+
+
+#ring2  {
+         position:relative;
+         z-index:9;
+         border-top:5px solid rgb(188, 136, 72,0);
+          border-right: 5px solid rgb(188, 136, 72,0);
+         border-left: 5px solid gray;
+         border-bottom: 5px solid gray;
+         width:95px;
+         height:95px;
+         border-radius: 50%;
+         top:-375px;
+         left:72.3px;
+         background-color:transparent; 
+         rotate:-45deg;
+
+       }
+
+#hole2::before {
+                content:"";
+                position:absolute;
+                background-color: #d2ad01;
+                width:10px;
+                height:10px;
+                border-radius: 50%;
+                z-index:3;
+                top:70px;
+                left:67px;
+
+              }
+
+#hole2::after { 
+                content:"";
+                position:absolute;
+                background-color: #d2ad01;
+                width:10px;
+                height:10px;
+                border-radius: 50%;
+                z-index:3;
+                top:70px;
+                left:173px;
+
+              }
+
+</style>
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap" rel="stylesheet"> 
+
+
+</head>
+
+<body>
+
+    <div id="backbag">
+
+        <div id="sidecorner1"></div>
+
+
+    <div id="secondcorner1"></div>
+
+    <div id="frontbag">
+        <div id="fspan">F</div>
+    </div>
+
+    <div id="holes"></div>
+    <div id="ring"></div>
+    <div id="ring2"></div>
+    <div id="hole2"></div>
+
+
+
+    </div>
+
+
+
+
+
+</body>
+</html>
